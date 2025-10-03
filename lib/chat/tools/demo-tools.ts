@@ -185,7 +185,7 @@ export const demoTools = {
 
         // Use generateObject to convert natural language to structured query
         const result = await generateObject({
-          model: openai('gpt-4o-mini'),
+          model: openai('gpt-5-nano'),
           system: `You are an IT asset analytics expert. Convert natural language queries into structured query descriptions.
           
 The asset database contains:

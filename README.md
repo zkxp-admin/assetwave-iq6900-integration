@@ -76,15 +76,15 @@ merge-iq/
 └── README.md                           # This file
 ```
 
-## ✅ Completed Implementation
+## ✅ Implementation Status
 
-### Step 1 & 2: Chat Foundation ✅
+### Core Chat Interface
 - ✅ Full chat UI with message display
 - ✅ User and AI message rendering with avatars
 - ✅ Streaming responses from OpenAI
 - ✅ Proper UIMessage handling
 
-### Step 3 & 4: Tools + Visual Display ✅
+### Tool System & Visualization
 - ✅ **Calculator Tool** - Math operations (add, subtract, multiply, divide)
 - ✅ **Time Tool** - Get current date/time with timezone support
 - ✅ **Asset Search Tool** - Demo integration with asset management
@@ -98,7 +98,7 @@ merge-iq/
 
 - **Framework**: Next.js 15 (App Router)
 - **AI SDK**: Vercel AI SDK v5
-- **Model Provider**: OpenAI (`gpt-4o-mini`)
+- **Model Provider**: OpenAI (`gpt-5-nano`)
 - **Styling**: Tailwind CSS
 - **Package Manager**: Bun
 - **TypeScript**: Full type safety
