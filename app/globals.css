@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+/* Centralized color variables */
+:root {
+  --color-primary: #0cfa13;
+  --color-secondary: #0cfa13;
+  --color-background: #000000;
+  --color-text: #0cfa13;
+  --color-text-muted: #9CA3AF;
+}
+
+.orbitron {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
+.inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Global thin scrollbar styling */
+html {
+  scrollbar-width: 1px; /* Firefox */
+  scrollbar-color: var(--color-primary) transparent; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  width: 1px; /* WebKit browsers */
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
